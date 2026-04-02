@@ -6,3 +6,17 @@ For this projected is a 2D arcade game developed in C using the Raylib library. 
 - D / Right Arrow → Move right
 - SPACE → Shoot
 - ESC → Exit
+## How to Compile
+### Windows
+gcc main.c -o game.exe -lraylib -lopengl32 -lgdi32 -lwinmm
+### Mac
+gcc main.c -o game -lraylib -lm -ldl -lpthread -lGL -lrt -lX11
+## How to Run
+### Windows 
+game.exe
+### Mac
+./game
+## Notes
+- Raylib must be installed properly before compiling
+- Game was developed in Notepad++ and compiled using gcc
+- Ensure textures folder is in the correct place, if not game will still run basic shapes
