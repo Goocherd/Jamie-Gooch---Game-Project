@@ -21,3 +21,4 @@ game.exe
 - Game was developed in Notepad++ and compiled using gcc
 - Ensure textures folder is in the correct place, if not game will still run basic shapes
 - Make sure to download textures
+- If having issues with video, download the raw file
